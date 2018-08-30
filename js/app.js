@@ -62,21 +62,21 @@ Game.prototype.start = function() {
     score[1].innerText = 'POINTS: ' + bonusCount;
 };
 
-// Restart Game: reset all settings to original state, after clicking the button on the canvas
+// Restart Game
 Game.prototype.restart = function() {
     gameStart.classList.remove('hide');
     canvas.classList.add('hide');
     restartActions();
 };
 
-// Restart Game: reset all settings to original state , after clicking the button on final message div
+// Restart Game
 Game.prototype.restart2 = function() {
     gameStart.classList.remove('hide');
     gameEnd.classList.add('hide');
     restartActions();
 };
 
-// Game over: display the final messages and prepare for a new game
+// Game over
 Game.prototype.over = function() {
     gameEnd.classList.remove('hide');
     canvas.classList.add('hide');
