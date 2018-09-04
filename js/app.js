@@ -94,7 +94,7 @@ function restartActions() {
 }
 
 /**
-* @description ENEMY settings and functionalities
+* @description sENEMY settings and functionalities
 * @constructor Enemy class
 */
 const Enemy = function(xPos, yPos, speed, sprite) {
